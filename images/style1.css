@@ -425,7 +425,7 @@
  .up-mid-right {
      justify-items: center;
      align-content: center;
-     margin-top: -15px;
+     margin-bottom: 20px;
      width: 50%;
  }
 
@@ -626,7 +626,7 @@
      padding: 0px;
      box-shadow: 0px 4px 6px 0px rgb(172, 167, 167);
      border: none;
-     margin-top: 0px;
+     margin-bottom: 10px;
      background: #7c7979;
  }
 
@@ -653,9 +653,8 @@
  }
 
  .btns2-element p {
-     position: absolute;
      font-size: 14px;
-     margin-left: 9.4%;
+     margin-left: 120px;
      font-weight: bold;
      margin-top: 44px;
      color: #fff;
