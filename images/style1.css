@@ -193,6 +193,8 @@
 
  .form-sub-elements {
      display: flex;
+     align-items:end;
+     justify-content: end;
  }
 
  .form-sub-elements label {
@@ -270,6 +272,7 @@
  .btn img {
      float: right;
  }
+
 
  /*main-2 section--------------------------------*/
  .main-2 {
@@ -597,6 +600,12 @@
      padding: 0px;
  }
 
+
+
+
+
+
+
  /*laast section ------------------------- */
  .last {
      display: flex;
@@ -780,13 +789,17 @@
 
  .images-last {
      margin-top: 40px;
-     margin-left: 15px;
      display: grid;
      margin-bottom: 30px;
  }
 
- .images-last .imgs img {
+ .images-last .imgs .img-last1 img {
      margin-bottom: 30px;
+      margin-left: 15px;
+ }
+ .images-last .imgs .img-last2 img {
+     margin-bottom: 30px;
+     margin-left: 30px;
  }
 
  .logo-icons h3 {
@@ -822,3 +835,46 @@
      box-shadow: 0px 4px 6px 0px rgb(172, 167, 167);
      background: #600;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================
+   Media Queries for Responsiveness
+   ============================ */
+
+
+@media (max-width: 1200px) {
+  
+}
+
+
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 768px) {
+ 
+}
+
+
+@media (max-width: 576px) {
+
+}
+
+
+@media (max-width: 400px) {
+
+}
+
