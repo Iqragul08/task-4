@@ -18,7 +18,8 @@
  }
 
  .logo {
-     width: 60%;
+    max-width: 60%;
+     width:800px;
      margin-bottom: 0px;
  }
 
@@ -143,7 +144,7 @@
  .para-3 {
      width: 55%;
      font-size: 25px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
  }
 
@@ -165,9 +166,9 @@
      color: #1a1919;
      margin-left: 30px;
      font-size: 18px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      line-height: 25px;
-    margin-bottom: 2px;
+     margin-bottom: 2px;
  }
 
  .sub-form-p span {
@@ -193,14 +194,12 @@
 
  .form-sub-elements {
      display: flex;
-     align-items:end;
-     justify-content: end;
  }
 
  .form-sub-elements label {
      font-size: 15px;
      margin-left: 25px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
      color: #1a1919;
  }
@@ -235,7 +234,7 @@
      height: 60px;
      padding: 2px 5px;
      font-size: 17px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      color: #797575;
      border: 1px solid #6e6565
  }
@@ -250,7 +249,7 @@
      margin-top: 20px;
      color: #5a5656;
      font-style: italic;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 15px;
      margin-right: 10px;
  }
@@ -260,7 +259,7 @@
      color: #fff;
      width: 290px;
      font-size: 18px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      height: 40px;
      border: none;
      padding: 10px 20px;
@@ -311,7 +310,7 @@
  .left-head p {
      color: #900;
      font-size: 19px;
- font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      margin-top: 30px;
      font-weight: bold;
      margin-bottom: 15px;
@@ -325,7 +324,7 @@
      font-size: 20px;
      color: #4A4A4A;
      margin-top: 0px;
-       font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      margin-bottom: 0px;
  }
 
@@ -356,7 +355,7 @@
      border: none;
      width: 150px;
      font-size: 16px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      height: 40px;
      padding: 8px 8px;
      text-decoration: none;
@@ -402,7 +401,7 @@
  .up-mid-left p {
      color: #4A4A4A;
      font-size: 20px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      margin-left: 28px;
      margin-bottom: 0px;
  }
@@ -422,7 +421,7 @@
      border: none;
      width: 140px;
      font-size: 16px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      height: 40px;
      padding: 6px 6px;
      text-decoration: none;
@@ -471,7 +470,7 @@
  .Lo-mid-left p {
      color: #4A4A4A;
      font-size: 20px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      margin-bottom: 0px;
  }
 
@@ -494,7 +493,7 @@
      border: none;
      width: 140px;
      font-size: 16px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      height: 40px;
      padding: 6px 6px;
      text-decoration: none;
@@ -553,7 +552,7 @@
  .mid-right p {
      color: #4A4A4A;
      font-size: 20px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      margin-bottom: 0px;
  }
 
@@ -577,7 +576,7 @@
      border: none;
      width: 140px;
      font-size: 16px;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      height: 40px;
      padding: 6px 6px;
      text-decoration: none;
@@ -675,7 +674,7 @@
 
  .btns2-element p {
      font-size: 14px;
-      font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      margin-left: 120px;
      font-weight: bold;
      margin-top: 44px;
@@ -717,7 +716,7 @@
 
  .last-mid p {
      font-size: 18px;
-      font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      color: #797575;
      margin-right: 20px;
      margin-top: 20px;
@@ -757,7 +756,7 @@
      color: #4A4A4A;
      margin-top: 5px;
      font-size: 20px;
-      font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      margin-bottom: 10px;
  }
 
@@ -776,7 +775,7 @@
      color: #fff;
      width: 120px;
      font-size: 14px;
-      font-family:Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      box-shadow: 0px 4px 6px 0px rgb(172, 167, 167);
      border: none;
      margin-top: -20px;
@@ -795,8 +794,9 @@
 
  .images-last .imgs .img-last1 img {
      margin-bottom: 30px;
-      margin-left: 15px;
+     margin-left: 15px;
  }
+
  .images-last .imgs .img-last2 img {
      margin-bottom: 30px;
      margin-left: 30px;
@@ -841,40 +841,420 @@
 
 
 
+/* ================================
+   Responsive Media Queries
+   ================================ */
 
-
-
-
-
-
-
-
-/* ============================
-   Media Queries for Responsiveness
-   ============================ */
-
-
-@media (max-width: 1200px) {
-  
-}
-
-
-@media (max-width: 992px) {
-
-}
-
-
+/* Tablet */
 @media (max-width: 768px) {
- 
+  /* Header Top Section */
+  .head-top {
+    flex-direction: column;   
+    align-items: stretch;     
+    text-align: center;
+  }
+
+  
+  .logo {
+    width: 100%;
+  }
+
+  
+  .logo img {
+    width: 100%;     
+    max-width: 100%;
+    height: auto;
+    display: block;  
+  }
+
+
+  .contact-info {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+
+
+  /* Navbar */
+  .navbar {
+    background: white;
+  }
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    gap: 10px;
+  }
+  .navbar ul li {
+    display: block;
+    border: 2px solid black;
+    background: #7A0202;
+    border-radius: 10px;
+  }
+  }
+
+  @media (max-width: 768px) {
+  /* Header Section */
+  .head-top {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .logo, .contact-info {
+    width: 100%;
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .contact-info {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  /* Navbar */
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .navbar li {
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+
+  /* Main section */
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-box, .right-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .left-box img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Right box background + text */
+  .right-box {
+    height: auto;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Form */
+  .form-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-container, .form-img {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .text-box textarea {
+    width: 95%;
+  }
+  .right-box-end {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+  }
+
+
+
+/* ======================
+   Section 2 Responsive
+   ====================== */
+
+/* 📱 Mobile  */
+@media (max-width: 768px) {
+  .main-2 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px; 
+    padding: 0 10px;
+    border-bottom: none;
+  }
+
+  .left-section,
+  .mid-section,
+  .right-section {
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .uper-section,
+  .lower-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .up-mid-left, .up-mid-right,
+  .Lo-mid-left, .Lo-mid-right {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  
+  .btn2 {
+    display: inline-block;
+    margin: 15px auto 0 auto; 
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .uper-right {
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main2-border img {
+    width: 100%;
+    height: auto;
+  }
+    .main2-border {
+    border-bottom: none;
+  }
+}
+
+/* 💻 Tablet  */
+@media (max-width: 992px) {
+  .main-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 30px; 
+  }
+
+  .left-section,
+  .mid-section,
+  .right-section {
+    flex: 1 1 45%;
+    max-width: 45%;
+    margin-bottom: 25px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .uper-section, .lower-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .uper-right {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  
+  .btn2 {
+    display: inline-block;
+    margin: 15px auto 0 auto;
+  }
 }
 
 
+
+
+
+
+
+  /* Main-2 (three sections) */
+  .main-2 {
+    flex-direction: column;
+  }
+  .left-section, .mid-section, .right-section {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* Last section (3 columns) */
+  .last {
+    flex-direction: column;
+  }
+  .last-left, .last-mid, .last-right {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+}
+
+
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  h1, h2, h3 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* Buttons full width */
+  .btn, .btn2, .btns2 {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+/* ======================
+   Last Section Responsive
+   ====================== */
+
+/* 📱 Mobile  */
+@media (max-width: 768px) {
+  .last {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .last-left,
+  .last-mid,
+  .last-right {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* Left buttons full width */
+  .last-letf-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .last-btns2 {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .btns2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Mid content text */
+  .last-mid p {
+    text-align: justify;
+  }
+
+  /* Right side buttons  */
+  .uper-last {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .clickbtn-side {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .clickbtn-side button {
+    margin: 10px auto 0 auto;
+    display: block;
+  }
+
+  /* Images and icons */
+  .images-last .imgs {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+/* 💻 Tablet */
+@media (max-width: 992px) {
+  .last {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .last-left,
+  .last-mid,
+  .last-right {
+    flex: 1 1 45%;
+    max-width: 45%;
+    text-align: center;
+  }
+
+  .last-mid {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .uper-last {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .images-last .imgs {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+
+/* Small Mobile*/
 @media (max-width: 576px) {
-
-}
-
-
-@media (max-width: 400px) {
-
+  .header, .navbar, .main, .main-2, .last {
+    padding: 10px;
+  }
+  .logo img {
+  width: 100%;
+  }
+  .contact-info p {
+    font-size: 20px;
+  }
+  .navbar ul li a {
+    font-size: 14px;
+  }
 }
 
