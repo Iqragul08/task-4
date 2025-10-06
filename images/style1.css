@@ -829,7 +829,7 @@ form .text-box {
         font-size: 11px;
     }
 
-     .right-box-end .btn {
+    .right-box-end .btn {
         font-size: 14px;
         width: 200px;
         height: 50px;
@@ -840,7 +840,7 @@ form .text-box {
         height: clamp(40px, 45px, 50px);
         width: clamp(150px, 180px, 200px);
     }
-   
+
 }
 
 
@@ -849,7 +849,7 @@ form .text-box {
 
 /* Small (≥576px and <768px) */
 @media (min-width: 576px) and (max-width: 768px) {
-  .main {
+    .main {
         width: 100%;
         display: grid;
         margin: 20px;
@@ -881,7 +881,7 @@ form .text-box {
     .para-3 {
         width: 40%;
         margin-left: 0px;
-        
+
     }
 
     .para-3 span {
@@ -916,7 +916,7 @@ form .text-box {
     }
 
     .lbl {
-          margin-top: 10px;
+        margin-top: 10px;
         width: 35%;
     }
 
@@ -958,7 +958,7 @@ form .text-box {
         font-size: 15px;
     }
 
-     .right-box-end .btn {
+    .right-box-end .btn {
         font-size: 20px;
         width: 370px;
         height: 50px;
@@ -969,43 +969,46 @@ form .text-box {
         height: clamp(40px, 45px, 50px);
         width: clamp(300px, 350px, 370px);
     }
-   
+
 }
 
 
 /* Medium (≥768px and <992px) */
 @media (min-width: 768px) and (max-width: 992px) {
-      .main {
+    .main {
         width: 100%;
         display: flex;
         margin: 10px;
     }
 
     .left-box {
-        width: 100%;
-         margin: 0;
+        width: 48%;
+        margin: 0px;
+        padding: 0px;
     }
 
     .right-box {
-        width: 94%;
-        margin: 0;
+        width: 49%;
+        margin: 0px;
+        padding: 0px;
     }
 
     .left-box img {
-        width: 94%;
-        height: auto;
+        width: 97%;
+        margin: 0px;
+
     }
 
 
     .heading-3 h3 {
         width: 65%;
         padding: 10px;
-        font-size: 18px;
-        font-size: clamp(14px, 16px, 18px);
+        font-size: 17px;
+        font-size: clamp(13px, 15px, 17px);
     }
 
     .para-3 {
-        width: 40%;
+        width: 50%;
         margin-left: 0px;
     }
 
@@ -1015,18 +1018,18 @@ form .text-box {
     }
 
     .para-3 span {
-        font-size: 20px;
-        font-size: clamp(15px, 18px, 20px);
+        font-size: 18px;
+        font-size: clamp(12px, 15px, 18px);
     }
 
     .sub-form-p {
         font-size: 13px;
         margin-left: 20px;
         font-size: clamp(10px, 12px, 13px);
-        line-height: clamp(18px, 20px, 25px);
+        line-height: clamp(15px, 18px, 20px);
     }
 
-     .form-main {
+    .form-main {
         flex-direction: column;
     }
 
@@ -1039,7 +1042,7 @@ form .text-box {
     .form-sub-elements label {
         font-size: 12px;
         font-weight: bold;
-        margin-left: 35px;
+        margin-left: 40px;
     }
 
     .input {
@@ -1051,18 +1054,18 @@ form .text-box {
     }
 
     .right-box form input {
-        padding: 5px;
+        padding: 4px;
 
     }
 
     .form-img img {
         width: 150px;
-        height: 45px;
+        height: 40px;
     }
 
     .form-img {
         margin-top: 0px;
-        margin-left: 93px;
+        margin-left: 88px;
         transform: rotate(0deg);
     }
 
@@ -1087,58 +1090,161 @@ form .text-box {
         font-size: 11px;
     }
 
-     .right-box-end .btn {
+    .right-box-end .btn {
         font-size: 14px;
         width: 200px;
         height: 50px;
-        padding: 5px 5px;
-        margin-left: 15px;
+        padding: 4px 4px;
+        margin-left: 10px;
         margin-right: 10px;
         font-size: clamp(10px, 12px, 14px);
         height: clamp(40px, 45px, 50px);
         width: clamp(150px, 180px, 200px);
     }
-   
+
 }
 
 /* Large (≥992px and <1200px) */
 @media (min-width: 992px) and (max-width: 1200px) {
     .main {
         width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 1.5rem;
+        display: flex;
+        margin: 15px;
     }
 
     .left-box {
-        width: 50%;
+        width: 49%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .right-box {
+        width: 49%;
+        margin: 0px;
+        padding: 0px;
     }
 
     .left-box img {
-        width: 100%;
-        height: auto;
+        width: 97%;
+        margin: 0px;
+
     }
 
     .right-box {
         width: 48%;
     }
 
-    .heading-3 {
+
+
+
+
+
+
+    .heading-3 h3 {
+        width: 65%;
+        padding: 10px;
         font-size: 23px;
+        font-size: clamp(19px, 20px, 23px);
     }
 
     .para-3 {
-        font-size: 23px;
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    .para-3 p {
+        font-size: 20px;
+        font-size: clamp(16px, 18px, 20px);
     }
 
     .para-3 span {
-        font-size: 32px;
+        font-size: 23px;
+        font-size: clamp(18px, 20px, 24px);
     }
 
-    .btn {
-        width: 280px;
-        font-size: 18px;
+    .sub-form-p {
+        font-size: 17px;
+        margin-left: 27px;
+        font-size: clamp(13px, 15px, 17px);
+        line-height: clamp(18px, 20px, 25px);
     }
+
+    .form-main {
+        flex-direction: row;
+    }
+
+    .form-sub-elements {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+
+    .form-sub-elements label {
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 25px;
+    }
+
+    .input {
+        width: 63%;
+    }
+
+    .lbl {
+        width: 35%;
+    }
+
+    .right-box form input {
+        padding: 6px;
+
+    }
+
+    .form-img img {
+        width: 150px;
+        height: 55px;
+    }
+
+    .form-img {
+        margin-top: 25px;
+        margin-left: 30px;
+        transform: rotate(22deg);
+    }
+
+    form .text-box {
+        margin-left: 30px;
+    }
+
+    .text-box textarea {
+        width: 86%;
+        height: 70px;
+        font-size: clamp(13px, 15px, 17px);
+    }
+
+    .right-box-end {
+        display: flex;
+        margin: 0px;
+    }
+
+    .right-box-end p {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .right-box-end .btn {
+        font-size: 16px;
+        width: 270px;
+        height: 50px;
+        padding: 5px 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: clamp(14px, 15px, 16px);
+        height: clamp(40px, 45px, 50px);
+        width: clamp(200px, 250px, 270px);
+    }
+
+
+
+
 }
 
 /* Extra Large (≥1200px and <1400px) */
@@ -1317,7 +1423,7 @@ form .text-box {
 
 .leftsect-img2 button img {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 90px;
     float: right;
 }
 
@@ -1544,7 +1650,7 @@ form .text-box {
     height: 2px;
     width: 80%;
     margin-left: 80px;
-   margin-top: 25px;
+    margin-top: 25px;
     padding: 0px;
 }
 
@@ -1976,7 +2082,7 @@ form .text-box {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #797575;
-     text-align: justify;
+    text-align: justify;
     margin-right: 20px;
     margin-top: 20px;
     line-height: 1.5;
@@ -2202,7 +2308,7 @@ form .text-box {
         width: 35px;
         margin: 5px;
     }
-    
+
 }
 
 
@@ -2252,7 +2358,7 @@ form .text-box {
 
     .last-left-text h2 {
         margin-left: 0px;
-         font-size: 25px;
+        font-size: 25px;
     }
 
     /* Last-mid text */
@@ -2320,26 +2426,65 @@ form .text-box {
         width: 35px;
         margin: 5px;
     }
-    
+
 }
 
 
 /* ---------- Tablets portrait / small laptops (768px–992px) ---------- */
 @media (min-width: 768px) and (max-width: 992px) {
     .last {
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        margin: 20px;
+        justify-items: center;
     }
 
-    .last-left,
-    .last-mid,
+    .last-left {
+        width: 85%;
+        margin: 0px;
+
+    }
+
+    .last-mid {
+        width: 100%;
+        margin: 0px;
+        margin-left: 0px;
+
+    }
+
     .last-right {
-        width: 90%;
-        margin: 15px 0;
+        width: 100%;
     }
 
     .btns2 {
-        width: 80%;
+        width: 100%;
+    }
+
+    .btns2-element span {
+        font-size: 22px;
+        margin-left: 20px;
+        margin-top: 20px;
+        position: absolute;
+    }
+
+    .btns2-element p {
+        font-size: 15px;
+        margin-left: 170px;
+        margin-top: 55px;
+    }
+
+    .btns2-element p>img {
+        height: 20px;
+    }
+
+    .last-left-text h3 {
+        margin-left: 25px;
+        font-size: 23px;
+    }
+
+    .last-left-text h2 {
+        margin-left: 30px;
+        font-size: 25px;
     }
 
     .last-mid h1 {
@@ -2348,10 +2493,15 @@ form .text-box {
 
     .last-mid p {
         font-size: 16px;
+        width: 100%;
     }
 
     .clickbtn-side .text h3 {
         font-size: 22px;
+    }
+
+    .uper-last {
+        margin-left: 50px;
     }
 
     .clickbtn-side .text p {
@@ -2360,7 +2510,7 @@ form .text-box {
 
     .buton-border {
         margin-top: 0px;
-        margin-bottom: -15px;
+        margin-bottom: 0px;
         position: relative;
         z-index: 1;
     }
@@ -2370,30 +2520,78 @@ form .text-box {
         font-size: 13px;
         position: relative;
         z-index: 2;
+    }
 
+    .images-last {
+        margin-left: 40px;
     }
 
     .images-last img {
         max-width: 50%;
+
     }
+
+    .logo-icons {
+        margin-left: 30px;
+    }
+
 }
 
 /* ---------- Tablets landscape / medium screens (992px–1200px) ---------- */
 @media (min-width: 992px) and (max-width: 1200px) {
     .last {
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        margin: 30px;
+        justify-items: center;
     }
 
-    .last-left,
-    .last-mid,
+    .last-left {
+        width: 85%;
+        margin: 0px;
+
+    }
+
+    .last-mid {
+        width: 100%;
+        margin: 0px;
+        margin-left: 0px;
+
+    }
+
     .last-right {
-        width: 90%;
-        margin: 15px 0;
+        width: 100%;
     }
 
     .btns2 {
-        width: 80%;
+        width: 100%;
+    }
+
+    .btns2-element span {
+        font-size: 22px;
+        margin-left: 20px;
+        margin-top: 20px;
+        position: absolute;
+    }
+
+    .btns2-element p {
+        font-size: 15px;
+        margin-left: 260px;
+        margin-top: 55px;
+    }
+
+    .btns2-element p>img {
+        height: 20px;
+    }
+
+    .last-left-text h3 {
+        margin-left: 25px;
+        font-size: 23px;
+    }
+
+    .last-left-text h2 {
+        margin-left: 30px;
+        font-size: 25px;
     }
 
     .last-mid h1 {
@@ -2402,10 +2600,15 @@ form .text-box {
 
     .last-mid p {
         font-size: 16px;
+        width: 100%;
     }
 
     .clickbtn-side .text h3 {
         font-size: 22px;
+    }
+
+    .uper-last {
+        margin-left: 50px;
     }
 
     .clickbtn-side .text p {
@@ -2414,7 +2617,7 @@ form .text-box {
 
     .buton-border {
         margin-top: 0px;
-        margin-bottom: -15px;
+        margin-bottom: 0px;
         position: relative;
         z-index: 1;
     }
@@ -2424,32 +2627,127 @@ form .text-box {
         font-size: 13px;
         position: relative;
         z-index: 2;
+    }
 
+    .images-last {
+        margin-left: 40px;
     }
 
     .images-last img {
         max-width: 50%;
+
     }
+
+    .logo-icons {
+        margin-left: 30px;
+    }
+
 }
 
 
 
 /* ---------- Laptops / desktops (1200px–1400px) ---------- */
 @media (min-width: 1200px) and (max-width: 1400px) {
+  .last {
+        display: flex;
+        margin: 30px;
+        justify-items: center;
+    }
+
+    .last-left {
+        width: 30%;
+        margin: 0px;
+
+    }
+
+    .last-mid {
+        width: 60%;
+        margin: 0px;
+        margin-left: 30px;
+
+    }
+
+    .last-right {
+        width: 30%;
+    }
+
+    .btns2 {
+        width: 100%;
+    }
+
+    .btns2-element span {
+        font-size: 22px;
+        margin-left: 10px;
+        margin-top: 20px;
+        position: absolute;
+    }
+
+    .btns2-element p {
+        font-size: 12px;
+        margin-left: 170px;
+        margin-top: 55px;
+    }
+
+    .btns2-element p>img {
+        height: 20px;
+    }
+
+    .last-left-text h3 {
+        margin-left: 25px;
+        font-size: 23px;
+    }
+
+    .last-left-text h2 {
+        margin-left: 90px;
+        font-size: 25px;
+    }
+
     .last-mid h1 {
-        font-size: 34px;
+        font-size: 26px;
     }
 
     .last-mid p {
-        font-size: 20px;
+        font-size: 16px;
+        width: 100%;
     }
 
     .clickbtn-side .text h3 {
-        font-size: 28px;
+        font-size: 22px;
     }
 
-    .logo-icons h3 {
-        font-size: 28px;
+    .uper-last {
+        margin-left:30px;
+    }
+
+    .clickbtn-side .text p {
+        font-size: 16px;
+    }
+
+    .buton-border {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .click-button button {
+        width: 110px;
+        font-size: 13px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .images-last {
+        margin-left: 40px;
+    }
+
+    .images-last img {
+        max-width: 50%;
+
+    }
+
+    .logo-icons {
+        margin-left: 30px;
     }
 }
 
@@ -2511,7 +2809,7 @@ form .text-box {
 
 /* ================== MEDIA QUERIES ================== */
 /* ---------- Mobile portrait / small phones (≤576px) ---------- */
-@media (min-width: 200px) and (max-width: 576px) {
+@media (min-width: 300px) and (max-width: 576px) {
     .footer {
         height: 22px;
     }
