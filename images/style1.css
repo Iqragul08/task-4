@@ -1350,13 +1350,13 @@ form .text-box {
 }
 
 .left-head {
-    line-height: 2px;
+    line-height: 20px;
 }
 
 .left-head h3 {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 10px;
     color: #4A4A4A;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -1369,7 +1369,7 @@ form .text-box {
     color: #900;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
+    margin-top: 5px;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -1398,14 +1398,14 @@ form .text-box {
 
 .leftsect-img2 img {
     position: relative;
-    top: 12px;
-    left: 30px;
+    bottom: -3px;
+    left: 25px;
 }
 
 .leftsect-img2 button {
-    margin-left: 70px;
-    margin-top: 0px;
+    margin-left: 50px;
     background: #900;
+    margin-top: -10px;
     position: relative;
     z-index: 1;
     color: #fff;
@@ -1423,7 +1423,8 @@ form .text-box {
 
 .leftsect-img2 button img {
     position: absolute;
-    margin-left: 90px;
+    left: 120px;
+    top: 10px;
     float: right;
 }
 
@@ -1440,7 +1441,6 @@ form .text-box {
 }
 
 .up-mid-left {
-    justify-items: center;
     width: 50%;
 }
 
@@ -1460,18 +1460,18 @@ form .text-box {
     color: #4A4A4A;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 28px;
+    margin-left: 0px;
     margin-bottom: 0px;
 }
 
 .up-mid-left img {
     margin-top: 0px;
-    margin-left: 15px;
-    margin-bottom: -15px;
+    margin-left: 0px;
+    margin-bottom: -11px;
 }
 
 .up-mid-left button {
-    margin-left: 60px;
+    margin-left: 25px;
     margin-top: 0px;
     background: #900;
     color: #fff;
@@ -1484,11 +1484,12 @@ form .text-box {
     padding: 6px 6px;
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .up-mid-left button img {
     float: right;
+
 }
 
 .up-mid-right {
@@ -1506,11 +1507,12 @@ form .text-box {
     width: 100%;
     height: 50%;
     display: flex;
+    margin-top: 10px;
 }
 
 .Lo-mid-left {
-    width: 70%;
-    margin-left: 20px;
+    width: 100%;
+    margin-left: 0px;
 }
 
 .Lo-mid-left h3 {
@@ -1527,7 +1529,7 @@ form .text-box {
 
 .Lo-mid-left p {
     color: #4A4A4A;
-    font-size: 20px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0px;
 }
@@ -1538,12 +1540,12 @@ form .text-box {
 
 .Lo-mid-left img {
     margin-top: 0px;
-    margin-left: 15px;
+    margin-left: 0px;
     margin-bottom: -20px;
 }
 
 .Lo-mid-left button {
-    margin-left: 60px;
+    margin-left: 30px;
     margin-top: 8px;
     background: #900;
     color: #fff;
@@ -1565,11 +1567,11 @@ form .text-box {
 
 .up-mid-right {
     margin-top: -15px;
-    width: 50%;
+    width: 40%;
 }
 
 .Lo-mid-right img {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 20px;
 }
 
@@ -1626,7 +1628,7 @@ form .text-box {
 }
 
 .lower-right button {
-    margin-left: 60px;
+    margin-left: 45px;
     margin-top: 0px;
     background: #900;
     color: #fff;
@@ -1659,12 +1661,30 @@ form .text-box {
 
 /* ================== MEDIA QUERIES ================== */
 /* 🔹 Extra Small Devices (below 576px) */
-@media (min-width: 200px) and (max-width: 576px) {
+@media (min-width: 300px) and (max-width: 576px) {
     .main-2 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-        text-align: center;
+        margin: 20px;
+    }
+
+    .left-section {
+        width: 100%;
+        margin-left: -35px;
+        border-right: none;
+    }
+
+    .mid-section {
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 30px;
+        border-right: none;
+    }
+
+    .right-section {
+        margin-left: -20px;
+        margin-top: 50px;
+        width: 90%;
     }
 
     .left-head h3,
@@ -1681,6 +1701,15 @@ form .text-box {
         font-size: 14px;
     }
 
+    .left-imgs {
+        margin-left: 30px;
+
+    }
+
+    .leftsect-img2 button img {
+        margin-left: 10px;
+    }
+
     .btn2 {
         width: 110px;
         font-size: 13px;
@@ -1691,6 +1720,29 @@ form .text-box {
         max-width: 100%;
         height: auto;
     }
+
+    .mid-section img {
+        margin-left: 0px;
+    }
+
+    .lower-right img {
+        margin-left: 0px;
+    }
+
+    .main2-border img {
+        height: 6px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .Lo-mid-right img {
+        margin-left: -30px;
+        width: 200px;
+    }
+
+    .lower-right button {
+        margin-left: 35px;
+    }
 }
 
 
@@ -1699,8 +1751,27 @@ form .text-box {
     .main-2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+
+    .left-section {
+        width: 95%;
+        margin-top: 30px;
+        border-right: 1px solid rgb(204, 196, 196);
+        margin-left: -20px;
+    }
+
+    .mid-section {
+        width: 85%;
+        margin-top: 30px;
+        margin-left: 0px;
+        border-right: none;
+    }
+
+    .right-section {
+        margin-top: 50px;
         align-items: center;
-        text-align: center;
+        width: 90%;
     }
 
     .left-head h3,
@@ -1714,18 +1785,50 @@ form .text-box {
     .up-mid-left p,
     .Lo-mid-left p,
     .mid-right p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
-    .btn2 {
-        width: 120px;
-        font-size: 14px;
-        height: 36px;
+    .leftsect-img2 button img {
+        margin-left: 10px;
     }
 
     .main-2 img {
-        max-width: 90%;
+        max-width: 100%;
         height: auto;
+    }
+
+    .up-mid-left img {
+        margin-bottom: -10px;
+    }
+
+    .up-mid-left button {
+        width: 130px;
+        margin-left: 15px;
+    }
+
+    .Lo-mid-left img {
+        margin-top: 0px;
+        margin-left: -10px;
+        margin-bottom: -20px;
+    }
+
+    .Lo-mid-left button {
+        margin-left: 10px;
+    }
+
+    .main2-border img {
+        height: 4px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .lower-right button {
+        margin-left: 45px;
+    }
+
+    .Lo-mid-right img {
+        margin-left: 0px;
+        width: 210px;
     }
 }
 
@@ -1735,8 +1838,27 @@ form .text-box {
     .main-2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+
+    .left-section {
+        width: 95%;
+        margin-top: 30px;
+        border-right: 1px solid rgb(204, 196, 196);
+        margin-left: -20px;
+    }
+
+    .mid-section {
+        width: 85%;
+        margin-top: 30px;
+        margin-left: 0px;
+        border-right: none;
+    }
+
+    .right-section {
+        margin-top: 50px;
         align-items: center;
-        text-align: center;
+        width: 90%;
     }
 
     .left-head h3,
@@ -1750,18 +1872,50 @@ form .text-box {
     .up-mid-left p,
     .Lo-mid-left p,
     .mid-right p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
-    .btn2 {
-        width: 120px;
-        font-size: 14px;
-        height: 36px;
+    .leftsect-img2 button img {
+        margin-left: 10px;
     }
 
     .main-2 img {
-        max-width: 90%;
+        max-width: 100%;
         height: auto;
+    }
+
+    .up-mid-left img {
+        margin-bottom: -10px;
+    }
+
+    .up-mid-left button {
+        width: 130px;
+        margin-left: 15px;
+    }
+
+    .Lo-mid-left img {
+        margin-top: 0px;
+        margin-left: -10px;
+        margin-bottom: -20px;
+    }
+
+    .Lo-mid-left button {
+        margin-left: 10px;
+    }
+
+    .main2-border img {
+        height: 4px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .lower-right button {
+        margin-left: 45px;
+    }
+
+    .Lo-mid-right img {
+        margin-left: 0px;
+        width: 210px;
     }
 }
 
@@ -1769,66 +1923,82 @@ form .text-box {
 @media (min-width: 992px) and (max-width: 1200px) {
 
     .main-2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        text-align: center;
+        display: flex;
+        margin: 20px;
     }
 
-    .left-section,
-    .mid-section,
+    .left-section {
+        width: 83%;
+        margin-top: 30px;
+        border-right: 1px solid rgb(204, 196, 196);
+        margin-left: -20px;
+    }
+
+    .mid-section {
+        width: 85%;
+        margin-top: 30px;
+        margin-left: 0px;
+         border-right: 1px solid rgb(204, 196, 196);
+    }
+
     .right-section {
-        width: 90%;
-        border: none;
-        margin-bottom: 25px;
-    }
-
-    .left-content {
-        flex-direction: row;
+        margin-top: 50px;
         align-items: center;
+        width: 85%;
     }
 
-    .left-imgs {
-        margin-left: 20px;
-        margin-top: 15px;
+    .left-head h3,
+    .up-mid-left h3,
+    .Lo-mid-left h3,
+    .mid-right h3 {
+        font-size: 20px;
     }
 
-    .uper-section,
-    .lower-section {
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
+    .left-paragraph,
+    .up-mid-left p,
+    .Lo-mid-left p,
+    .mid-right p {
+        font-size: 15px;
     }
 
-    .up-mid-right img,
-    .Lo-mid-right img {
-        margin: 15px auto;
-        display: block;
-        max-width: 70%;
+    .leftsect-img2 button img {
+        margin-left: 10px;
+    }
+    .main-2 img {
+        max-width: 100%;
         height: auto;
     }
-
-    .uper-right {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .uper-right img {
-        width: 60%;
-        height: auto;
-        margin: 10px 0;
-    }
-
-    .lower-right {
-        margin-left: 0;
-    }
-
-    .btn2 {
-        margin: 15px auto;
-        display: block;
-    }
+.up-mid-left img {
+    margin-bottom: -10px;
 }
 
+.up-mid-left button {
+    width: 130px;
+    margin-left: 15px;
+}
+.Lo-mid-left img {
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+.Lo-mid-left button {
+    margin-left: 10px;
+}
+
+    .lower-right button {
+        margin-left: 45px;
+    }
+      .Lo-mid-right img {
+        margin-left: 0px;
+        width: 210px;
+    }
+     .main2-border img {
+        height: 4px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
 /* 🔹 Extra Large Screens (1200px and above) */
 @media (min-width: 1200px) and (max-width: 1400px) {
     .main-2 {
@@ -2648,7 +2818,7 @@ form .text-box {
 
 /* ---------- Laptops / desktops (1200px–1400px) ---------- */
 @media (min-width: 1200px) and (max-width: 1400px) {
-  .last {
+    .last {
         display: flex;
         margin: 30px;
         justify-items: center;
@@ -2716,7 +2886,7 @@ form .text-box {
     }
 
     .uper-last {
-        margin-left:30px;
+        margin-left: 30px;
     }
 
     .clickbtn-side .text p {
