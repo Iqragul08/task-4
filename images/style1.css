@@ -61,7 +61,7 @@
 
 
 /* ================== MEDIA QUERIES ================== */
-/* Extra Small (phones <(576px) */
+/*Small (phones <(576px) */
 @media (min-width:300px) and (max-width: 576px) {
     * {
         margin: 0px;
@@ -116,7 +116,7 @@
     }
 }
 
-/* Small (≥576px and <768px) */
+/* Small screen (≥576px and <768px) */
 @media (min-width: 576px) and (max-width: 768px) {
     * {
         margin: 0px;
@@ -170,7 +170,7 @@
     }
 }
 
-/* Medium (≥768px and <992px) */
+/* Medium screen (≥768px and <992px) */
 @media (min-width: 768px) and (max-width: 992px) {
     * {
         margin: 0px;
@@ -223,7 +223,7 @@
 }
 
 
-/* Large (≥992px and <1200px) */
+/* large screen (≥992px and <1200px) */
 @media (min-width: 992px) and (max-width: 1200px) {
     * {
         margin: 0px;
@@ -277,7 +277,7 @@
     }
 }
 
-/* Extra Large (≥1200px and <1400px) */
+/* Extra Large screen (≥1200px and <1400px) */
 @media (min-width: 1200px) and (max-width: 1400px) {
     * {
         margin: 0px;
@@ -331,7 +331,7 @@
     }
 }
 
-/* Extra Extra Large (≥1400px) */
+/* Extra Large (≥1400px) */
 @media (min-width: 1400px) {
     .logo img {
         width: 800px;
@@ -390,7 +390,7 @@
 
 /* ================== MEDIA QUERIES ================== */
 
-/* Extra Small (phones <576px) */
+/* Small (phones <576px) */
 @media (min-width: 300px) and (max-width: 576px) {
     .navbar ul {
         flex-direction: column;
@@ -414,7 +414,7 @@
     }
 }
 
-/* Small (≥576px and <768px) */
+/* Small screen (≥576px and <768px) */
 @media (min-width: 576px) and (max-width: 768px) {
     .navbar ul {
         flex-direction: column;
@@ -439,7 +439,7 @@
 }
 
 
-/* Medium (≥768px and <992px) */
+/* Medium screen (≥768px and <992px) */
 @media (min-width: 768px) and (max-width: 992px) {
     .navbar ul {
         justify-content: center;
@@ -456,7 +456,7 @@
     }
 }
 
-/* Large (≥992px and <1200px) */
+/* Large screen (≥992px and <1200px) */
 @media (min-width: 992px) and (max-width: 1200px) {
     .navbar ul {
         justify-content: flex-end;
@@ -488,7 +488,7 @@
     }
 }
 
-/* Extra Extra Large (≥1400px) */
+/* Extra Large (≥1400px) */
 @media (min-width: 1400px) {
     .navbar ul {
         justify-content: flex-end;
@@ -715,7 +715,7 @@ form .text-box {
 
 /* ================== MEDIA QUERIES ================== */
 
-/* Extra Small (phones <576px) */
+/*Small (phones <576px) */
 @media (min-width: 300px) and (max-width: 576px) {
     .main {
         width: 100%;
@@ -1273,7 +1273,7 @@ form .text-box {
 }
 
 
-/* Extra Extra Large (≥1400px) */
+/*Extra Large (≥1400px) */
 @media (min-width: 1400px) {
     .main {
         margin: 2rem;
@@ -1660,7 +1660,7 @@ form .text-box {
 
 
 /* ================== MEDIA QUERIES ================== */
-/* 🔹 Extra Small Devices (below 576px) */
+/*Small Devices (below 576px) */
 @media (min-width: 300px) and (max-width: 576px) {
     .main-2 {
         display: grid;
@@ -1670,7 +1670,7 @@ form .text-box {
 
     .left-section {
         width: 100%;
-        margin-left: -35px;
+        margin-left: -25px;
         border-right: none;
     }
 
@@ -1700,7 +1700,9 @@ form .text-box {
     .mid-right p {
         font-size: 14px;
     }
-
+.leftsect-img1 img {
+    margin-left: 25px;
+}
     .left-imgs {
         margin-left: 30px;
 
@@ -1746,7 +1748,7 @@ form .text-box {
 }
 
 
-/* 🔹 Small Devices (576px - 768px) */
+/*Small Devices (576px - 768px) */
 @media (min-width: 576px) and (max-width: 768px) {
     .main-2 {
         display: grid;
@@ -1770,8 +1772,8 @@ form .text-box {
 
     .right-section {
         margin-top: 50px;
-        align-items: center;
-        width: 90%;
+         border-right: none;
+        width: 80%;
     }
 
     .left-head h3,
@@ -1830,10 +1832,23 @@ form .text-box {
         margin-left: 0px;
         width: 210px;
     }
+    .uper-right {
+        margin-left: 170px;
+        width: 100%;
+        height: 120px;
+    }
+.mid-right {
+    margin-left: 200px;
+    width: 100%;
+}
+.lower-right {
+     margin-left: 200px;
+    width: 100%;
+}
 }
 
 
-/* 🔹 Medium Devices (768px - 992px) */
+/* Medium Devices (768px - 992px) */
 @media (min-width: 768px) and (max-width: 992px) {
     .main-2 {
         display: grid;
@@ -1851,14 +1866,12 @@ form .text-box {
     .mid-section {
         width: 85%;
         margin-top: 30px;
-        margin-left: 0px;
         border-right: none;
     }
 
     .right-section {
         margin-top: 50px;
-        align-items: center;
-        width: 90%;
+        width: 100%;
     }
 
     .left-head h3,
@@ -1917,33 +1930,49 @@ form .text-box {
         margin-left: 0px;
         width: 210px;
     }
+     .uper-right  {
+        margin-left: 170px;  
+        width: 90%;
+        height: auto;
+    }
+
+.mid-right {
+    margin-left: 200px;
+    width: 100%;
 }
 
-/* 🔹 Large Devices (992px - 1200px) */
+.lower-right {
+     margin-left: 210px;
+    width: 100%;
+}
+
+}
+
+/*  Large Devices (992px - 1200px) */
 @media (min-width: 992px) and (max-width: 1200px) {
 
     .main-2 {
         display: flex;
-        margin: 20px;
+        margin: 10px;
     }
 
     .left-section {
         width: 83%;
-        margin-top: 30px;
+        margin-top: 10px;
         border-right: 1px solid rgb(204, 196, 196);
         margin-left: -20px;
     }
 
     .mid-section {
         width: 85%;
-        margin-top: 30px;
-        margin-left: 0px;
-         border-right: 1px solid rgb(204, 196, 196);
+        margin-top: 10px;
+        margin-left: 15px;
+        border-right: 1px solid rgb(204, 196, 196);
     }
 
     .right-section {
-        margin-top: 50px;
-        align-items: center;
+        margin-top: 10px;
+        margin-left: -15px;
         width: 85%;
     }
 
@@ -1961,45 +1990,61 @@ form .text-box {
         font-size: 15px;
     }
 
+    .leftsect-img2 {
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+
     .leftsect-img2 button img {
         margin-left: 10px;
     }
+
     .main-2 img {
         max-width: 100%;
         height: auto;
     }
-.up-mid-left img {
-    margin-bottom: -10px;
-}
 
-.up-mid-left button {
-    width: 130px;
-    margin-left: 15px;
-}
-.Lo-mid-left img {
-    margin-top: 0px;
-    margin-left: -10px;
-    margin-bottom: -20px;
-}
+    .up-mid-left img {
+        margin-bottom: -10px;
+    }
 
-.Lo-mid-left button {
-    margin-left: 10px;
-}
+    .up-mid-left button {
+        width: 130px;
+        margin-left: 15px;
+    }
+
+    .Lo-mid-left img {
+        margin-top: 0px;
+        margin-left: -10px;
+        margin-bottom: -20px;
+    }
+
+    .Lo-mid-left button {
+        margin-left: 10px;
+    }
 
     .lower-right button {
         margin-left: 45px;
     }
-      .Lo-mid-right img {
+
+    .up-mid-right img {
         margin-left: 0px;
-        width: 210px;
     }
-     .main2-border img {
+
+    .Lo-mid-right img {
+        margin-left: -10px;
+        margin-top: 0px;
+        width: 200px;
+    }
+
+    .main2-border img {
         height: 4px;
         width: 100%;
         margin-left: 0px;
     }
 }
-/* 🔹 Extra Large Screens (1200px and above) */
+
+/* Large Screens (1200px and above) */
 @media (min-width: 1200px) and (max-width: 1400px) {
     .main-2 {
         display: flex;
@@ -2022,17 +2067,14 @@ form .text-box {
         border-right: 1px solid rgb(204, 196, 196);
     }
 
-    /* remove double border on last column */
     .right-section {
         border-right: none;
     }
 
-    /* slightly reduce left column left spacing */
     .left-1 {
         margin-left: 20px;
     }
 
-    /* headings & paragraph scaling */
     .left-head h3,
     .up-mid-left h3,
     .Lo-mid-left h3,
@@ -2050,7 +2092,6 @@ form .text-box {
         line-height: 1.5;
     }
 
-    /* buttons — consistent size */
     .btn2,
     .Lo-mid-left button,
     .up-mid-left button,
@@ -2062,7 +2103,6 @@ form .text-box {
         padding: 7px 10px;
     }
 
-    /* images in the small image slots scale nicely */
     .up-mid-right img,
     .Lo-mid-right img,
     .leftsect-img1 img,
@@ -2073,17 +2113,15 @@ form .text-box {
         display: block;
     }
 
-    /* tweak right-section internal spacing */
     .mid-right {
         margin-left: 20px;
     }
 
     .lower-right {
         margin-left: 20px;
-        margin-top: 8px;
+        margin-top: 0px;
     }
 
-    /* main2 border image alignment */
     .main2-border img {
         width: 85%;
         height: auto;
@@ -2093,7 +2131,7 @@ form .text-box {
 }
 
 
-/* ---------- Helpful: very large screens (>= 1600px) to scale up a bit ---------- */
+/* large screens (>= 1600px) */
 @media (min-width: 1400px) {
 
     .left-head h3,
@@ -2365,7 +2403,7 @@ form .text-box {
 
 
 /* ================== MEDIA QUERIES =============last section===== */
-/* ---------- Mobile portrait / small phones (≤575px) ---------- */
+/*small phones (≤575px) */
 @media (min-width: 300px) and (max-width: 576px) {
     .last {
         flex-direction: column;
@@ -2380,7 +2418,7 @@ form .text-box {
         margin: 10px 0;
     }
 
-    /* Buttons */
+
     .btns2 {
         width: 80%;
         height: 100px;
@@ -2413,7 +2451,7 @@ form .text-box {
         margin-left: 0px;
     }
 
-    /* Last-mid text */
+
     .last-mid h1 {
         font-size: 22px;
     }
@@ -2424,7 +2462,7 @@ form .text-box {
         text-align: justify;
     }
 
-    /* Right section */
+
     .clickbtn-side .text h3 {
         font-size: 18px;
     }
@@ -2449,7 +2487,6 @@ form .text-box {
         z-index: 2;
     }
 
-    /* Images */
     .images-last .imgs {
         display: flex;
         flex-direction: column;
@@ -2462,7 +2499,7 @@ form .text-box {
         margin: 10px 0;
     }
 
-    /* Icons */
+
     .logo-icons h3 {
         font-size: 20px;
         margin: 15px 0;
@@ -2482,7 +2519,7 @@ form .text-box {
 }
 
 
-/* ---------- Mobile landscape / large phones (576px–768px) ---------- */
+/*large phones (576px–768px) */
 @media (min-width: 576px) and (max-width: 768px) {
     .last {
         flex-direction: column;
@@ -2497,7 +2534,7 @@ form .text-box {
         margin: 10px 0;
     }
 
-    /* Buttons */
+
     .btns2 {
         width: 80%;
         height: 100px;
@@ -2531,7 +2568,7 @@ form .text-box {
         font-size: 25px;
     }
 
-    /* Last-mid text */
+
     .last-mid h1 {
         font-size: 25px;
     }
@@ -2542,7 +2579,7 @@ form .text-box {
         text-align: justify;
     }
 
-    /* Right section */
+
     .clickbtn-side .text h3 {
         font-size: 18px;
     }
@@ -2567,7 +2604,6 @@ form .text-box {
         z-index: 2;
     }
 
-    /* Images */
     .images-last .imgs {
         display: flex;
         flex-direction: column;
@@ -2580,7 +2616,7 @@ form .text-box {
         margin: 10px 0;
     }
 
-    /* Icons */
+
     .logo-icons h3 {
         font-size: 20px;
         margin: 15px 0;
@@ -2600,7 +2636,7 @@ form .text-box {
 }
 
 
-/* ---------- Tablets portrait / small laptops (768px–992px) ---------- */
+/*small laptops (768px–992px) */
 @media (min-width: 768px) and (max-width: 992px) {
     .last {
         display: grid;
@@ -2707,7 +2743,7 @@ form .text-box {
 
 }
 
-/* ---------- Tablets landscape / medium screens (992px–1200px) ---------- */
+/* medium screens (992px–1200px) */
 @media (min-width: 992px) and (max-width: 1200px) {
     .last {
         display: grid;
@@ -2816,7 +2852,7 @@ form .text-box {
 
 
 
-/* ---------- Laptops / desktops (1200px–1400px) ---------- */
+/*Laptops / desktops (1200px–1400px) */
 @media (min-width: 1200px) and (max-width: 1400px) {
     .last {
         display: flex;
@@ -2978,14 +3014,14 @@ form .text-box {
 }
 
 /* ================== MEDIA QUERIES ================== */
-/* ---------- Mobile portrait / small phones (≤576px) ---------- */
+/*small phones (≤576px) */
 @media (min-width: 300px) and (max-width: 576px) {
     .footer {
         height: 22px;
     }
 }
 
-/* ---------- Mobile landscape / large phones (576px–768px) ---------- */
+/*large phones (576px–768px)*/
 @media (min-width: 576px) and (max-width: 768px) {
     .footer {
         width: 100%;
@@ -2994,7 +3030,7 @@ form .text-box {
     }
 }
 
-/* ---------- Tablets portrait / small laptops (768px–992px) ---------- */
+/* small laptops (768px–992px)*/
 @media (min-width: 768px) and (max-width: 992px) {
     .footer {
         width: 100%;
@@ -3003,14 +3039,14 @@ form .text-box {
     }
 }
 
-/* ---------- Tablets landscape / medium screens (992px–1200px) ---------- */
+/*medium screens (992px–1200px)*/
 @media (min-width: 992px) and (max-width: 1200px) {
     .footer {
         height: 30px;
     }
 }
 
-/* ---------- Laptops / desktops (1200px–1400px) ---------- */
+/*desktops (1200px–1400px)*/
 @media (min-width: 1200px) and (max-width: 1400px) {
     .footer {
         width: 100%;
@@ -3020,7 +3056,7 @@ form .text-box {
     }
 }
 
-/* ---------- Large desktops / wide screens (≥1400px) ---------- */
+/* wide screens (≥1400px) */
 @media (min-width: 1400px) {
     .footer {
         height: 40px;
