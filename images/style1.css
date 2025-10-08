@@ -1700,9 +1700,11 @@ form .text-box {
     .mid-right p {
         font-size: 14px;
     }
-.leftsect-img1 img {
-    margin-left: 25px;
-}
+
+    .leftsect-img1 img {
+        margin-left: 20px;
+    }
+
     .left-imgs {
         margin-left: 30px;
 
@@ -1745,6 +1747,7 @@ form .text-box {
     .lower-right button {
         margin-left: 35px;
     }
+
 }
 
 
@@ -1772,7 +1775,7 @@ form .text-box {
 
     .right-section {
         margin-top: 50px;
-         border-right: none;
+        border-right: none;
         width: 80%;
     }
 
@@ -1832,19 +1835,22 @@ form .text-box {
         margin-left: 0px;
         width: 210px;
     }
+
     .uper-right {
         margin-left: 170px;
         width: 100%;
         height: 120px;
     }
-.mid-right {
-    margin-left: 200px;
-    width: 100%;
-}
-.lower-right {
-     margin-left: 200px;
-    width: 100%;
-}
+
+    .mid-right {
+        margin-left: 200px;
+        width: 100%;
+    }
+
+    .lower-right {
+        margin-left: 200px;
+        width: 100%;
+    }
 }
 
 
@@ -1930,21 +1936,22 @@ form .text-box {
         margin-left: 0px;
         width: 210px;
     }
-     .uper-right  {
-        margin-left: 170px;  
+
+    .uper-right {
+        margin-left: 170px;
         width: 90%;
         height: auto;
     }
 
-.mid-right {
-    margin-left: 200px;
-    width: 100%;
-}
+    .mid-right {
+        margin-left: 200px;
+        width: 100%;
+    }
 
-.lower-right {
-     margin-left: 210px;
-    width: 100%;
-}
+    .lower-right {
+        margin-left: 210px;
+        width: 100%;
+    }
 
 }
 
@@ -2534,7 +2541,6 @@ form .text-box {
         margin: 10px 0;
     }
 
-
     .btns2 {
         width: 80%;
         height: 100px;
@@ -2646,20 +2652,38 @@ form .text-box {
     }
 
     .last-left {
-        width: 85%;
-        margin: 0px;
+        width: 100%;
+        margin-left: 50px;
 
     }
 
     .last-mid {
-        width: 100%;
-        margin: 0px;
-        margin-left: 0px;
-
+        width: 250%;
+        margin-left: -220px;
     }
+
+    .last-mid h1 {
+        width: 100%;
+    }
+
+    .last-mid p {
+        width: 100%;
+    }
+
 
     .last-right {
         width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .ira {
+        margin-left: 90px;
+        width: 100;
+    }
+
+    .last-letf-btns {
+        width: 55%;
     }
 
     .btns2 {
@@ -2733,14 +2757,18 @@ form .text-box {
     }
 
     .images-last img {
-        max-width: 50%;
-
+        max-width: 100%;
     }
 
     .logo-icons {
         margin-left: 30px;
     }
 
+    .icons {
+        display: flex;
+        margin-left: 20px;
+        width: 80px;
+    }
 }
 
 /* medium screens (992px–1200px) */
